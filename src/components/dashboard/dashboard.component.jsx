@@ -13,7 +13,7 @@ export default function DashboardComponent() {
             <TeamAComponent />
           </div>
           <div className="flex-grow-1 p-1 text-center">
-            <h1>TEA TIME</h1>
+            <h1>HangMan</h1>
             <AnswerBoxComponent />
           </div>
           <div className="flex-1 p-1 text-center">
