@@ -1,0 +1,16 @@
+.answer-box {
+  flex-basis: 5%;
+  height: 1.5rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.hide-reset-button {
+  visibility: hidden;
+}
+
+.show-reset-button {
+  visibility: visible;
+}

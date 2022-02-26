@@ -1,0 +1,9 @@
+.flex-1 {
+  flex: 1 1 60% !important;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    display: block !important;
+  }
+}
