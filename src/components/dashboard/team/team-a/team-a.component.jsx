@@ -23,9 +23,10 @@ export default function TeamAComponent() {
       </Inplace>
       {/* team A score board */}
       <div className="m-5 w-12rem inline-block">
+        <h3>Score</h3>
         <div className="p-inputgroup">
           <Button icon="pi pi-minus" className="p-button-primary" onClick={() => setScore(prevState => prevState - 1)} />
-          <InputText placeholder="Score" value={score} onChange={(e) => setScore(e.target.value)} />
+          <InputText title="Score" value={score} onChange={(e) => setScore(e.target.value)} />
           <Button icon="pi pi-plus" className="p-button-primary" onClick={() => setScore(prevState => prevState + 1)} />
         </div>
       </div>
